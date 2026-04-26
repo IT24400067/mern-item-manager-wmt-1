@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://mern-item-manager-wmt-1-production-e554.up.railway.app";
+const API_URL = import.meta.env.VITE_API_URL || "https://mern-item-manager-wmt-1-production-e554.up.railway.app";
 
 function App() {
   const [items, setItems] = useState([]);
