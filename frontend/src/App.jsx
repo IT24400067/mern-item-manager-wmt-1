@@ -40,7 +40,7 @@ function App() {
     setFormData({
       name: "",
       price: "",
-      dascription: "",
+      description: "",
       category: "",
     });
   };
@@ -110,7 +110,6 @@ const deleteItem = async (id) => {
             <p>Description: {item.description}</p>
             <p>Caategory: {item.category}</p>
             
-// DELETE
             <button onClick={() => deleteItem(item._id)}>Delete</button>
           </div>
         ))}
